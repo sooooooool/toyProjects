@@ -12,36 +12,28 @@ TOYPROJECTS는 온도와 날씨 정보를 바탕으로 사용자에게 코디를
 ### 폴더 구조
 
 ![캡처](https://github.com/user-attachments/assets/58089ba2-fcbd-4af5-af0c-5fdc3e9449ba)
-<img src="https://github.com/user-attachments/assets/58089ba2-fcbd-4af5-af0c-5fdc3e9449ba" />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### 정보 마인드맵 작성
 
 ![image](https://github.com/user-attachments/assets/bdc625f1-76bc-4a22-84fd-9facdef940a1)
-<img src="https://github.com/user-attachments/assets/bdc625f1-76bc-4a22-84fd-9facdef940a1" />
 
 
 ### 서비스 흐름도 작성
 
 ![image](https://github.com/user-attachments/assets/662e752d-55af-4543-9d8e-931f04cd8fc4)
-<img src="https://github.com/user-attachments/assets/662e752d-55af-4543-9d8e-931f04cd8fc4" />
 
 
 ### 랜딩 페이지
 
 ![image](https://github.com/user-attachments/assets/b729c166-24ff-4e71-8178-35261a73f76d)
-<img src="https://github.com/user-attachments/assets/b729c166-24ff-4e71-8178-35261a73f76d" />
 
 ### 온도 업데이트
 
 ![image](https://github.com/user-attachments/assets/242e6c9d-fbd0-43d1-a486-1b50f3986e11)
-<img src="https://github.com/user-attachments/assets/242e6c9d-fbd0-43d1-a486-1b50f3986e11" />
 
 ### 코디 추천
 ![image](https://github.com/user-attachments/assets/3a467da9-a00d-4ae9-963b-980e34bc50af)
-<img src="https://github.com/user-attachments/assets/3a467da9-a00d-4ae9-963b-980e34bc50af" />
 
 ## Learn More
 

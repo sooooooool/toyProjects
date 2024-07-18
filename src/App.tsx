@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Router, BrowserRouter } from "react-router-dom";
 import ScreenA from "./pages/ScreenA";
 import ScreenB from "./pages/ScreenB";
 import ScreenC from "./pages/ScreenC";
@@ -12,11 +12,13 @@ function App() {
     return <ScreenC {...props} message="This is Screen C" />;
   };
   return (
-    <Switch>
-      <Route exact={true} path="/" component={ScreenA} />
-      <Route path="/b" component={ScreenB} />
-      <Route path="/c/:userid" render={renderScreenC} />
-    </Switch>
+    <BrowserRouter>
+      <Switch>
+        <Route exact={true} path="/" component={ScreenA} />
+        <Route path="/b" component={ScreenB} />
+        <Route path="/c/:userid" render={renderScreenC} />
+      </Switch>
+    </BrowserRouter>
   );
 }
 

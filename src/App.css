@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: darksalmon;
+  padding: 10px;
+  color: white;
+}
+
+.App-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.clickable-area {
+  position: absolute;
+  top: 200px; /* Adjust based on actual image position */
+  left: 300px; /* Adjust based on actual image position */
+  width: 100px; /* Adjust based on actual area size */
+  height: 100px; /* Adjust based on actual area size */
+  cursor: pointer;
+}
+
+.hover-label {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
 }

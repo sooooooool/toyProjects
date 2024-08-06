@@ -1,23 +1,31 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { Switch, Route, Router, BrowserRouter } from "react-router-dom";
-import ScreenA from "./pages/ScreenA";
-import ScreenB from "./pages/ScreenB";
-import ScreenC from "./pages/ScreenC";
+import {
+  BrowserRouter as Switch,
+  Route,
+  Router,
+  BrowserRouter,
+} from "react-router-dom";
+import LandingPage from "./pages/LandingPage";
+import MainPage from "./pages/MainPage";
+import OutfitRecommendationPage from "./pages/OutfitRecommendationPage";
 
 function App() {
   const renderScreenC = (props: any) => {
     console.log("ScreenC props", props);
-    return <ScreenC {...props} message="This is Screen C" />;
+    return <OutfitRecommendationPage {...props} message="This is Screen C" />;
   };
   return (
     <BrowserRouter>
-      <Switch>
-        <Route exact={true} path="/" component={ScreenA} />
-        <Route path="/b" component={ScreenB} />
-        <Route path="/c/:userid" render={renderScreenC} />
-      </Switch>
+      <Route>
+        <Route exact={true} path="/" component={LandingPage} />
+        <Route path="/main" component={MainPage} />
+        <Route
+          path="/outfit-recommendation"
+          render={OutfitRecommendationPage}
+        />
+      </Route>
     </BrowserRouter>
   );
 }

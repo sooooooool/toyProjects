@@ -78,3 +78,20 @@
   padding: 5px 10px;
   border-radius: 5px;
 }
+
+@font-face {
+  font-family: "YourFont";
+  src: url("../src/assets/fonts/나눔손글씨\ 느릿느릿체.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
